@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var( --bs-white );
+   
+}
+#about,#skills,#contact{
+  width: 100%;
+    height: 100%;
+}
+.mousehover:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+    
+   
+}
+
+.container {
+    @media(max-width:600px){
+        flex-wrap: wrap;
+    }
+}
+
+
+textarea{
+    resize: none;
+}
+
+.hover:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 0 5px;
+}
